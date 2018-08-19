@@ -1,0 +1,12 @@
+{
+  "name": "Youtube Focus",
+  "version": "1.0",
+  "description": "Removes distracting content from the window",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/"],
+      "js": ["script.js"]
+    }
+  ]
+}
